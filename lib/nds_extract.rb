@@ -10,9 +10,8 @@ def directors_totals(nds)
       sum+=value[:worldwide_gross]
     end
     new_hash[obj[:name]]=sum
-    new_hash
   end
-  #new_hash
+  new_hash
 
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
